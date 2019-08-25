@@ -25,11 +25,7 @@ public class dashboardAction extends dashboard{
         Thread.sleep(2000);
         scroll.scrollToElement(txtBantuSiapa);
         }
-/*
-    public void clickFirstCampaign(){
-        firstCampaign.click();
-    }
-*/    
+ 
 
     public void clickNonOrganizationCampaign(){
         nonOrganizationCampaign.click();

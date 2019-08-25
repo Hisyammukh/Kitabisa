@@ -18,10 +18,27 @@ public class donationForm{
     @FindBy(xpath = "//span[@class='text-bold text-12 small-margin-right']")
     public WebElement paymentMethod;
 
+    //Transfer BCA selected
+    @FindBy(xpath = "//li[3]")
+    public WebElement trfBCA;
+
     //Transfer BNI selected
     @FindBy(xpath = "//li[4]")
     public WebElement trfBNI;
 
+    //Transfer BNI Syariah selected
+    @FindBy(xpath = "//li[5]")
+    public WebElement trfBNIS;
+
+    //Transfer BNI selected
+    @FindBy(xpath = "//li[6]")
+    public WebElement trfBRI;
+
+    //Transfer BNI selected
+    @FindBy(xpath = "//li[7]")
+    public WebElement trfMandiri;    
+
+    
     //Name
     @FindBy(id="Donations_donorName")
     public WebElement donationName;

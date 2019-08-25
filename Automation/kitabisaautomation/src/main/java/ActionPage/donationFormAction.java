@@ -26,8 +26,24 @@ public class donationFormAction extends donationForm{
         paymentMethod.click();
     }
 
+    public void clickTrfBCA(){
+        trfBCA.click();
+    }
+
     public void clickTrfBNI(){
         trfBNI.click();
+    }
+
+    public void clickTrfBNIS(){
+        trfBNIS.click();
+    }
+
+    public void clickTrfBRI(){
+        trfBRI.click();
+    }
+    
+    public void clickTrfMandiri(){
+        trfMandiri.click();
     }
 
     public void txtBoxName(){
@@ -43,13 +59,6 @@ public class donationFormAction extends donationForm{
         btnPayment.click();
     }
     
-    public boolean RelationCampaignDisplayed(){
-        if(Relational.isDisplayed()){
-        return true;
-        }
-		return false;
-    }
-
     public boolean isRelationDisplayed(){
         return YesRelation.isDisplayed();
     }
@@ -58,39 +67,7 @@ public class donationFormAction extends donationForm{
         YesRelation.click();
         
     }
-    /*
 
-    public boolean valCampaignRelation() {
-        
-        if(Relational.isDisplayed()){
-            System.out.println("DISPLAYED");
-            return true;
- 
-        }
-        System.out.println("NOT DISPLAYED"); 
-       return false;
-    }
-    */
-
-    /*
-    public void clickCampaignRelation(){
-        try {
-        if (Relational.isDisplayed()) {
-            System.out.println("DISPLAYED");
-            YesRelation.click();
-            btnPayment.click();
-        }
-        else{
-            System.out.println("NOT DISPLAYED");
-            btnPayment.click();
-        }
-    }
-    catch (Exception e){
-        
-    }
-
-    }
-    */
     
 
     
