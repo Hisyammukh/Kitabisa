@@ -14,6 +14,6 @@ Please read the steps carefully:
 
  # Detail Project
  
- Technology Used : Java, TestNG, Selenium, Maven
- Framework Used: Page Object Model
+ * Technology Used : Java, TestNG, Selenium, Maven
+ * Framework Used: Page Object Model
 
