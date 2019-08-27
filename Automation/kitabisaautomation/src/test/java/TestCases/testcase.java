@@ -29,12 +29,15 @@ public class testcase extends config {
 
     }
     
-    //@Test
+    @Test
     //Test Scenario BNI
     public void donationBNITrf() throws InterruptedException {
        da.scrolltoBanner();
+       System.out.println("Scroll");
        //da.clickFirstCampaign();
        da.clickNonOrganizationCampaign();
+       Thread.sleep(2000);
+       System.out.println("SAmpe sini");
        da.clickBtnDonasi();
 
        dfa.typeTxtBoxAmmount();
@@ -61,7 +64,7 @@ public class testcase extends config {
         da.scrolltoBanner();
         //da.clickFirstCampaign();
         da.clickNonOrganizationCampaign();
-        da.clickBtnDonasi();
+        //da.clickBtnDonasi();
  
         dfa.typeTxtBoxAmmount();
         dfa.clickPaymentMethod();
@@ -90,7 +93,7 @@ public class testcase extends config {
         da.scrolltoBanner();
         //da.clickFirstCampaign();
         da.clickNonOrganizationCampaign();
-        da.clickBtnDonasi();
+        //da.clickBtnDonasi();
  
         dfa.typeTxtBoxAmmount();
         dfa.clickPaymentMethod();
@@ -119,7 +122,7 @@ public class testcase extends config {
         da.scrolltoBanner();
         //da.clickFirstCampaign();
         da.clickNonOrganizationCampaign();
-        da.clickBtnDonasi();
+        //da.clickBtnDonasi();
  
         dfa.typeTxtBoxAmmount();
         dfa.clickPaymentMethod();
@@ -141,13 +144,13 @@ public class testcase extends config {
          
         
      }
-    @Test
+    
         //Test Scenario Mandiri     
         public void donationBNISTrf() throws InterruptedException {
             da.scrolltoBanner();
             //da.clickFirstCampaign();
             da.clickNonOrganizationCampaign();
-            da.clickBtnDonasi();
+            //da.clickBtnDonasi();
      
             dfa.typeTxtBoxAmmount();
             dfa.clickPaymentMethod();
